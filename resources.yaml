@@ -51,8 +51,6 @@ items:
             - --override
             - reserved.broker.max.id=1001
             - --override
-            - listener.security.protocol.map=INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
-            - --override
             - advertised.protocol.name=OUTSIDE
             - --override
             - advertised.port=9092
